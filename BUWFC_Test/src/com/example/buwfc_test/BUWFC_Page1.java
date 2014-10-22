@@ -16,15 +16,15 @@ public class BUWFC_Page1 extends Activity {
 		setContentView(R.layout.activity_buwfc__page1);
 		
 		Button addEvent = (Button)findViewById(R.id.addEvent);
-		addEvent.setOnClickListener(new view.OnClickListener() {
+		addEvent.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
-				Intent i = new Intent(BUWFC_Page1.this, addEvent.class);
+				Intent i = new Intent(BUWFC_Page1.this, Button.class);
 				startActivity(i);
 				
 			}
-		})
+		});
 		
 	}
 
