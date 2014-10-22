@@ -20,7 +20,7 @@ public class BUWFC_Page1 extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				Intent i = new Intent(BUWFC_Page1.this, Button.class);
+				Intent i = new Intent(BUWFC_Page1.this, AddEvent.class);
 				startActivity(i);
 				
 			}
